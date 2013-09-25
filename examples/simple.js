@@ -21,7 +21,7 @@ setInterval(function () {
 setInterval(function () {
   db.ts("foo")
     .flatten()
+    .numbers()
     .mean(1000)
-    .nest()
     .toArray(console.log)
 }, 1000)
