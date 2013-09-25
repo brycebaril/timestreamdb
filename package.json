@@ -1,0 +1,39 @@
+{
+  "name": "timestreamdb",
+  "version": "0.0.0",
+  "description": "A Timeseries Database in Node.js backed by LevelDB.",
+  "main": "timestreamdb.js",
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "dependencies": {
+    "concat-stream": "~1.0.1",
+    "level": "~0.16.0",
+    "level-version": "~0.2.0",
+    "levelup": "~0.16.0",
+    "statware": "~0.3.0",
+    "through2-map": "~1.2.0",
+    "timestream": "~0.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:brycebaril/timestreamdb.git"
+  },
+  "keywords": [
+    "timeseries",
+    "tsdb",
+    "database",
+    "levelup",
+    "leveldb"
+  ],
+  "author": "Bryce B. Baril",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brycebaril/timestreamdb/issues"
+  }
+}
