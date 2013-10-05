@@ -1,6 +1,6 @@
 {
   "name": "timestreamdb",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A Timeseries Database in Node.js backed by LevelDB.",
   "main": "timestreamdb.js",
   "directories": {
