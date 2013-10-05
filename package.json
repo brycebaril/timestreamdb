@@ -9,9 +9,9 @@
   },
   "dependencies": {
     "level-version": "~0.2.0",
-    "levelup": "~0.16.0",
+    "levelup": "~0.17.0",
     "through2-map": "~1.2.0",
-    "timestream": "~0.0.2"
+    "timestream": "~0.0.3"
   },
   "devDependencies": {},
   "scripts": {
