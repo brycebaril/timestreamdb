@@ -9,8 +9,8 @@
   },
   "dependencies": {
     "level-version": "~0.2.0",
-    "levelup": "~0.17.0",
-    "through2-map": "~1.2.0",
+    "levelup": "~0.18.2",
+    "through2-map": "~1.2.1",
     "timestream": "~0.0.3"
   },
   "devDependencies": {},
