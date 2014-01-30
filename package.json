@@ -8,10 +8,10 @@
     "test": "test"
   },
   "dependencies": {
-    "level-version": "~0.2.0",
+    "level-version": "~0.2.1",
     "levelup": "~0.18.2",
     "through2-map": "~1.2.1",
-    "timestream": "~0.0.3"
+    "timestream": "~0.0.4"
   },
   "devDependencies": {},
   "scripts": {
