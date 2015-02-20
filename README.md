@@ -3,9 +3,6 @@ timestreamdb
 
 [![NPM](https://nodei.co/npm/timestreamdb.png)](https://nodei.co/npm/timestreamdb/)
 
-[![david-dm](https://david-dm.org/brycebaril/timestreamdb.png)](https://david-dm.org/brycebaril/timestreamdb/)
-[![david-dm](https://david-dm.org/brycebaril/timestreamdb/dev-status.png)](https://david-dm.org/brycebaril/timestreamdb#info=devDependencies/)
-
 Super early alpha version!
 
 Docs coming, there is a *LOT* in there. Uses [timestream](http://npm.im/timestream) for a query engine.
