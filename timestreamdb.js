@@ -36,8 +36,12 @@ function TimestreamDB(instance, options) {
 
   var db = Version(instance, options)
 
-  db.ts = function (key) {
-    return ts(db.versionStream(key, {reverse: true}).pipe(toTimestream()))
+  db.ts = function (key, options) {
+    var opts = {reverse: true}
+
+    if (options.start) opts.minVersion = options.start
+    if (options.until) opts.maxVersion = options.until
+    return ts(db.versionStream(key, opts).pipe(toTimestream()))
   }
   db.timeStream = db.ts
 
